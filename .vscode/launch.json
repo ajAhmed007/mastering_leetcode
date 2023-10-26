@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubString_3",
+            "request": "launch",
+            "mainClass": "LongestSubString_3",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
