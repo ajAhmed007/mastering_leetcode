@@ -6,25 +6,28 @@ import java.util.*;
  */
 public class LongestSubString_3 {
     public static void main(String[] args) {
-        String s = "abcabcbb";
+        String s = "bbbbb";
         System.out.println(lengthOfLongestSubstring(s));
     }
+    
     public static int lengthOfLongestSubstring(String s) {
+        int left = 0;
+        int right = 0;
         char[] sChar = s.toCharArray();
-        int count = 0;
-        Map<Character, Integer> m = new HashMap<>();
-        for(int i = 0; i < sChar.length; i++){
-            if(!m.containsKey(sChar[i])){
-                m.put(sChar[i], 1 );
-                count++;
-            }else{
-                count = 0;
-                m.clear();
+        Set<Character> set = new HashSet<>();
+        int max = 0;
+        while (right < s.length()) {
+            if (!set.contains(sChar[right])) {
+                set.add(sChar[right]);
+                right++;
+                max = Math.max(max, right - left);
+            }
+
+            if (right < s.length() && set.contains(sChar[right])) {
+                set.remove(sChar[left]);
+                left++;
             }
         }
-        return count;
-
+        return max;
     }
-
-    
 }
