@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContainerWithMostWater_11",
+            "request": "launch",
+            "mainClass": "patterns.two_pointers.ContainerWithMostWater_11",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater_42",
+            "request": "launch",
+            "mainClass": "patterns.two_pointers.TrappingRainWater_42",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
             "name": "LongestSubString_3",
             "request": "launch",
             "mainClass": "LongestSubString_3",
