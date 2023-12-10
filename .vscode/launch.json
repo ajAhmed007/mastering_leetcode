@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubString_3",
+            "request": "launch",
+            "mainClass": "patterns.sliding_window.LongestSubString_3",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
+            "name": "FindingDiferrece",
+            "request": "launch",
+            "mainClass": "patterns.arrays.FindingDiferrece",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
+            "name": "findingDifference",
+            "request": "launch",
+            "mainClass": "patterns.Arrays.findingDifference",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
+            "name": "FindingDifference",
+            "request": "launch",
+            "mainClass": "patterns.Arrays.FindingDifference",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
             "name": "ContainerWithMostWater_11",
             "request": "launch",
             "mainClass": "patterns.two_pointers.ContainerWithMostWater_11",
