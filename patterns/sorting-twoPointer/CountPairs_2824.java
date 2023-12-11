@@ -1,5 +1,5 @@
-package patterns.sorting-twoPointer;
-
+package patterns.sorting;
+import java.util.*;
 public class CountPairs_2824 {
     public int countPairs(List<Integer> nums, int target) {
         // sort the numbers

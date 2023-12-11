@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlternativeMerge_1768",
+            "request": "launch",
+            "mainClass": "patterns.string_twoPointers.AlternativeMerge_1768",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
+            "name": "AlternativeMerge_1768",
+            "request": "launch",
+            "mainClass": "AlternativeMerge_1768",
+            "projectName": "mastering_leetcode_8ffde743"
+        },
+        {
+            "type": "java",
             "name": "LongestSubString_3",
             "request": "launch",
             "mainClass": "patterns.sliding_window.LongestSubString_3",
