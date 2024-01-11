@@ -6,7 +6,7 @@ import java.util.*;
  */
 public class LongestSubString_3 {
     public static void main(String[] args) {
-        String s = "bbbbb";
+        String s = "bsjfbdsjkaaaaaaaaaaabbbb";
         System.out.println(lengthOfLongestSubstring(s));
     }
     
